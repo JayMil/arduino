@@ -1,0 +1,28 @@
+(electron) The default value of app.allowRendererProcessReuse is deprecated, it is currently "false".  It will change to be "true" in Electron 9.  For more information please check https://github.com/electron/electron/issues/18397
+(electron) 'getName function' is deprecated and will be removed. Please use 'name property' instead.
+10:26:55.525 › Checking for update
+10:26:55.592 › Error: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:2519:21)
+    at SimpleURLLoaderWrapper.emit (events.js:210:5)
+10:26:55.593 › @error@
+ {
+  constructor: 'Error',
+  stack: 'Error: net::ERR_INTERNET_DISCONNECTED\n' +
+    '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:2519:21)\n' +
+    '    at SimpleURLLoaderWrapper.emit (events.js:210:5)'
+}
+(node:9742) UnhandledPromiseRejectionWarning: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:2519:21)
+    at SimpleURLLoaderWrapper.emit (events.js:210:5)
+(node:9742) UnhandledPromiseRejectionWarning: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:2519:21)
+    at SimpleURLLoaderWrapper.emit (events.js:210:5)
+(node:9742) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:9742) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:9742) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:9742) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:9776) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(node:9776) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(electron) 'setZoomFactor function' is deprecated and will be removed. Please use 'zoomFactor property' instead.
+(node:9742) DeprecationWarning: Passing functions, DOM objects and other non-cloneable JavaScript objects to IPC methods is deprecated and will throw an exception beginning with Electron 9.
+(node:9742) DeprecationWarning: Passing functions, DOM objects and other non-cloneable JavaScript objects to IPC methods is deprecated and will throw an exception beginning with Electron 9.

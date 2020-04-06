@@ -1,0 +1,39 @@
+(electron) The default value of app.allowRendererProcessReuse is deprecated, it is currently "false".  It will change to be "true" in Electron 9.  For more information please check https://github.com/electron/electron/issues/18397
+(electron) 'getName function' is deprecated and will be removed. Please use 'name property' instead.
+12:48:31.977 › Checking for update
+(node:19061) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(node:19061) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(electron) 'setZoomFactor function' is deprecated and will be removed. Please use 'zoomFactor property' instead.
+(node:19028) DeprecationWarning: Passing functions, DOM objects and other non-cloneable JavaScript objects to IPC methods is deprecated and will throw an exception beginning with Electron 9.
+(node:19028) DeprecationWarning: Passing functions, DOM objects and other non-cloneable JavaScript objects to IPC methods is deprecated and will throw an exception beginning with Electron 9.
+12:48:35.139 › Found version 12.9.3 (url: draw.io-x86_64-12.9.3.AppImage)
+12:48:35.139 › @update-available@
+ {
+  version: '12.9.3',
+  files: [
+    {
+      url: 'draw.io-x86_64-12.9.3.AppImage',
+      sha512: 'MQw4oRyj+lUUeWVtBZknJN+PgTwbaf1WqhJInXDPKK0/41DOMji50EPUcZCUWphKRMw/XbtjE0ka8oniwLTtxA==',
+      size: 101940875,
+      blockMapSize: 106143
+    }
+  ],
+  path: 'draw.io-x86_64-12.9.3.AppImage',
+  sha512: 'MQw4oRyj+lUUeWVtBZknJN+PgTwbaf1WqhJInXDPKK0/41DOMji50EPUcZCUWphKRMw/XbtjE0ka8oniwLTtxA==',
+  releaseDate: '2020-03-26T15:47:13.678Z',
+  releaseName: '12.9.3',
+  releaseNotes: '<p><strong>Updater issues with 12.4.2</strong> : Desktop 12.4.2 was released with a combination of Electron and Electron-Builder that has <a href="https://github.com/electron-userland/electron-builder/issues/4505" data-hovercard-type="issue" data-hovercard-url="/electron-userland/electron-builder/issues/4505/hovercard">a bug</a> causing updating to fail with the message "Error: Redirect was cancelled"</p>\n' +
+    "<p>We don't have any mechanism to change the behaviour in the installed base for 12.4.2, so please install using the relevant full installer below.</p>\n" +
+    '<h2>Releases Notes for 12.9.3</h2>\n' +
+    '<p><a href="https://github.com/jgraph/drawio-desktop/releases/download/v12.9.3/draw.io-12.9.3-windows-installer.exe">Windows Installer</a><br>\n' +
+    '<a href="https://github.com/jgraph/drawio-desktop/releases/download/v12.9.3/draw.io-12.9.3-windows-no-installer.exe">Windows No Installer</a><br>\n' +
+    '<a href="https://github.com/jgraph/drawio-desktop/releases/download/v12.9.3/draw.io-12.9.3.dmg">macOS</a><br>\n' +
+    'Linux - <a href="https://github.com/jgraph/drawio-desktop/releases/download/v12.9.3/draw.io-amd64-12.9.3.deb">deb</a>, <a href="https://snapcraft.io/drawio" rel="nofollow">snap</a>, <a href="https://github.com/jgraph/drawio-desktop/releases/download/v12.9.3/draw.io-x86_64-12.9.3.AppImage">AppImage</a> or <a href="https://github.com/jgraph/drawio-desktop/releases/download/v12.9.3/draw.io-x86_64-12.9.3.rpm">rpm</a><br>\n' +
+    '<a href="https://chrome.google.com/webstore/detail/drawio-desktop/pebppomjfocnoigkeepgbmcifnnlndla/reviews" rel="nofollow">Google Chrome OS</a></p>\n' +
+    '<p><strong>ChangeLog:</strong></p>\n' +
+    '<ul>\n' +
+    '<li>Updates to <a href="https://github.com/jgraph/drawio/blob/v12.9.3/ChangeLog">draw.io 12.9.3</a>, changes from, and including, 12.6.5 to 12.9.3 are new in this desktop release.</li>\n' +
+    '<li>Updates to <a href="https://github.com/electron/electron/releases/tag/v8.2.0">Electron 8.2.0</a></li>\n' +
+    '</ul>'
+} null
+Gtk-Message: 12:48:35.194: GtkDialog mapped without a transient parent. This is discouraged.
